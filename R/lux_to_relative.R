@@ -1,8 +1,12 @@
-#' <Add Title>
+#' Relative time element
 #'
-#' <Add Description>
+#' 
 #'
-#' @param datetime
+#' @param datetime A POSIXct scalar
+#' @param usetz Whether to use the timezone or not
+#' @param width,height Must be a valid CSS unit (like \code{'100\%'},
+#'   \code{'400px'}, \code{'auto'}) or a number, which will be coerced to a
+#'   string and have \code{'px'} appended.
 #'
 #' @import htmlwidgets
 #'
